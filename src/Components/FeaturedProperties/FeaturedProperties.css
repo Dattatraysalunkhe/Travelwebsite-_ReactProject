@@ -1,0 +1,38 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.fpImg{
+    width: 100%;
+    height: 200px;
+   
+}
+.fpItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.fpName{
+    font-weight: bold;
+}
+.fpCity{
+    font-size: 20px;
+}
+.fpPrice{
+    font-weight: bold;
+}
+.fpRating>button{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.fpItem span{
+    font-weight: 14px;
+}
